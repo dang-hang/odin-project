@@ -1,0 +1,28 @@
+/* Optional styling */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 10px;
+  display: inline-block;
+}
+.grid-container {
+  display: flex;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  gap: wpx; /* Adjust the gap between grid items */
+  width: 1000px; /* Adjust the width of the grid */
+  height: 1000px;
+  margin: 0 auto; /* Center the grid horizontally */
+}
+
+/* Optional styling for the grid items */
+.grid-item {
+  background-color: #ccc; /* Background color of each grid item */
+  border: 1px solid #000; /* Border around each grid item */
+  width: 100%; /* Make each grid item fill the grid cell */
+  height: 100%; /* Make each grid item fill the grid cell */
+}
+.grid-item:hover {
+  background-color: #ff0000; /* Change background color on hover */
+}
